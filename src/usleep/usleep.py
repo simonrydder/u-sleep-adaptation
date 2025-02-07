@@ -1,6 +1,9 @@
 # Code inspired by U-Sleep article
 # and https://github.com/neergaard/utime-pytorch
 
+
+# type: ignore
+
 import math
 
 import torch
