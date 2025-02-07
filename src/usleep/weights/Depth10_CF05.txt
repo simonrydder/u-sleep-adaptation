@@ -1,0 +1,13 @@
+Created by Jesper Strøm: js@ece.au.dk if you have questions.
+
+Expects one EEG and one EOG channel as input.
+The model has depth 10 and complexity factor 0.5 resulting in ~240K weights
+
+Trained, validated and tested on the 'BIG SLEEP' dataset (v2) from ERDA:
+
+1. 886 gradient steps per epoch
+2. 10^-4 starting learning rate
+3. LR scheduler with factor 0.5 after 20 epochs of no improvement
+4. Early stopping after 40 epochs with no improvement.
+5. Trained only on the 13 training datasets, tested on the hold-out datasets
+6. Obtained ~0.8 kappa on training sets and ~0.7 kappa on hold-out

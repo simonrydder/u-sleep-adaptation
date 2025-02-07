@@ -5,8 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "commonsleepdatapipeline",
+    "h5py>=3.12.1",
+    "lightning>=2.5.0.post0",
+    "neptune>=1.13.0",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.1",
+    "seaborn>=0.13.2",
+    "torch>=2.6.0",
 ]
-
-[tool.uv.sources]
-commonsleepdatapipeline = { git = "https://github.com/jesperstroem/CSDP.git" }
