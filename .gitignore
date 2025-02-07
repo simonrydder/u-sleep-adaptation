@@ -10,3 +10,4 @@ wheels/
 .venv
 *.hdf5
 uv.lock
+src/usleep/weights/
