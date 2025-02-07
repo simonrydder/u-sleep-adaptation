@@ -1,0 +1,8 @@
+Expects a single EEG channel as input.
+
+Created by Jesper.
+Trained in the following way using the 'BIG SLEEP' dataset:
+
+1. Pre-trained in the regular fashion using randomly chosen derivations.
+2. Finetuned using m1-m2 derivations from all recordings that have that available.
+3. Finetuned one EESM19 after that. This is from 'split 0'
